@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo img{
+    width: 130px;
+    height: auto;
+
+}
+.center-nav{
+    display: flex;
+
+}
+.search{
+    display: flex;
+}
+.search input{
+    min-width: 600px;
+    padding: 10px 20px;
+    border: 0.5px solid rgb(82, 79, 79);
+}
+.search button{
+    border:none;
+    padding: 10px 20px;
+}
+.mic{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgb(172, 167, 167);
+    display: grid;
+    place-items: center;
+    margin-left: 10px;
+}
+.mic img{
+    width: 30px;
+}
+.side-nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+align-items: center;
+margin-right: 50px;
+}
+.tag{
+    display: flex;
+    padding: 10px 20px;
+    /* justify-content: space-between; */
+    gap: 20px;
+    border-top: 1px solid grey;
+}
+.tag-menu{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color:rgb(192, 192, 192);
+   
+    /* opacity: 0.8; */
+
+}
+.tag-menu:hover{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+}
+.main-container{
+    width: 100%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+}
+.side-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-size: small; */
+}
+.side-icons p{
+    font-size: 10px;
+}
+.bars{
+    margin-top: 20px;
+}
